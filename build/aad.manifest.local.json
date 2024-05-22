@@ -1,0 +1,107 @@
+{
+    "id": "62ba76bf-8ffe-4c4b-8b37-5f2322aeae29",
+    "appId": "e8bf069d-36c7-4df3-8f5c-7b8e2a2c9c00",
+    "name": "AdaptiveCardTest",
+    "accessTokenAcceptedVersion": 2,
+    "signInAudience": "AzureADMyOrg",
+    "optionalClaims": {
+        "idToken": [],
+        "accessToken": [
+            {
+                "name": "idtyp",
+                "source": null,
+                "essential": false,
+                "additionalProperties": []
+            }
+        ],
+        "saml2Token": []
+    },
+    "requiredResourceAccess": [
+        {
+            "resourceAppId": "00000003-0000-0000-c000-000000000000",
+            "resourceAccess": [
+                {
+                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+                    "type": "Scope"
+                }
+            ]
+        }
+    ],
+    "oauth2Permissions": [
+        {
+            "adminConsentDescription": "Allows Teams to call the app's web APIs as the current user.",
+            "adminConsentDisplayName": "Teams can access app's web APIs",
+            "id": "c9dc7cc4-f4b6-42b1-882e-d64f507d321f",
+            "isEnabled": true,
+            "type": "User",
+            "userConsentDescription": "Enable Teams to call this app's web APIs with the same rights that you have",
+            "userConsentDisplayName": "Teams can access app's web APIs and make requests on your behalf",
+            "value": "access_as_user"
+        }
+    ],
+    "preAuthorizedApplications": [
+        {
+            "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        },
+        {
+            "appId": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        },
+        {
+            "appId": "d3590ed6-52b3-4102-aeff-aad2292ab01c",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        },
+        {
+            "appId": "00000002-0000-0ff1-ce00-000000000000",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        },
+        {
+            "appId": "bc59ab01-8403-45c6-8796-ac3ef710b3e3",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        },
+        {
+            "appId": "0ec893e0-5785-4de6-99da-4ed124e5296c",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        },
+        {
+            "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        },
+        {
+            "appId": "4345a7b9-9a63-4910-a426-35363201d503",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        },
+        {
+            "appId": "27922004-5251-4030-b22d-91ecd9a37ea4",
+            "permissionIds": [
+                "c9dc7cc4-f4b6-42b1-882e-d64f507d321f"
+            ]
+        }
+    ],
+    "identifierUris": [
+        "api://botid-cedffc58-9ebf-468a-95f5-beb28904c501"
+    ],
+    "replyUrlsWithType": [
+        {
+            "url": "https://wnvf6rrr-3978.asse.devtunnels.ms/auth-end.html",
+            "type": "Web"
+        }
+    ]
+}
